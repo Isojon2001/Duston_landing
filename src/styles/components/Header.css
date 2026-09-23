@@ -1,0 +1,43 @@
+.landing__wrapper {
+	justify-content: space-between;
+	position: fixed;
+	top: 0;
+	right: 0;
+	left: 0;
+	z-index: 9999;
+}
+
+.head__Landing,
+.landing__wrapper {
+	font-size: 20px;
+	display: flex;
+	padding: 0 10px;
+	align-items: center;
+	background: white;
+}
+
+.landing__language {
+	display: flex;
+	gap: 10px;
+	align-items: center;
+}
+
+.head__Landing ul {
+	display: flex;
+	padding: 0;
+	list-style: none;
+	text-decoration: none;
+	gap: 20px;
+}
+
+.landing__language a,
+.head__Landing a {
+	color: black;
+	text-decoration: none;
+}
+
+.landing__language a,
+.head__Landing a:hover {
+	color: grey;
+	transition: 0.5s;
+}

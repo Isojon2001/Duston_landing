@@ -1,0 +1,188 @@
+.abouts__info {
+	display: flex;
+	align-items: center;
+	margin-left: 30px;
+	gap: 100px;
+}
+
+.abouts__title {
+	max-width: 600px;
+}
+
+.abouts__title p:nth-of-type(1),
+.abouts__title h1 {
+	color: #555454;
+}
+
+.abouts__info h1 {
+	font-size: 56px;
+	font-weight: 500;
+	text-transform: uppercase;
+}
+
+.abouts__info p {
+	font-size: 20px;
+}
+
+.abouts__info button {
+	display: flex;
+	align-items: center;
+	gap: 20px;
+	margin-top: 50px;
+	background: #031138;
+	border: none;
+	color: #FFF;
+	font-size: 20px;
+	padding: 10px 30px;
+	border-radius: 6px;
+}
+
+.btn__charger {
+	display: flex;
+	align-items: center;
+	gap: 30px;
+}
+
+.abouts__dsp {
+	padding: 30px;
+}
+
+.abouts_bg {
+	background: white;
+
+}
+
+.abouts__scooter {
+	display: flex;
+	  box-shadow: 0 15px 25px rgba(0, 0, 0, 0.15) ;
+	background: #FFF;
+	margin:50px 20px;
+	justify-content: space-between;
+	border-radius: 20px;
+	padding: 0 30px;
+
+}
+
+.abouts__app {
+	box-shadow: none;
+	background: none;
+}
+
+.abouts_img {
+	display: flex;
+	align-items: center;
+	padding: 50px 0;
+}
+
+.abouts__app img:nth-of-type(2) {
+	margin-bottom: 130px;
+}
+.coffes_img{
+	display: flex;
+	justify-content: center;
+}
+.abouts__items {
+	display: flex;
+	box-shadow: 10px 10px 20px 5px rgba(0, 0, 0, 0.5);
+	border-radius: 20px;
+	padding: 20px;
+	align-items: center;
+	justify-content: space-between;
+}
+
+.abouts__item {
+	display: flex;
+	gap: 30px;
+	align-items: center;
+}
+.abouts__coffe{
+	max-width: 610px;
+	margin-bottom: 10px;
+}
+.abouts__coffe p{
+	margin-top: 40px;
+	font-size: 25px;
+}
+.scooter__title h1 {
+	font-size: 35px;
+	font-weight: 500;
+}
+
+.abouts__qwatt p {
+	font-size: 25px;
+}
+
+.scooter__title p>span {
+	font-weight: 700;
+}
+.scooter__title button {
+	display: flex;
+	align-items: center;
+	gap: 20px;
+	margin-top: 50px;
+	background: #031138;
+	border: none;
+	color: #FFF;
+	font-size: 20px;
+	padding: 10px 30px;
+	border-radius: 6px;
+}
+
+.abouts__qwatt {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	padding: 40px;
+}
+
+.qwatt__title {
+	display: flex;
+	justify-content: space-between;
+}
+
+.abouts__charger {
+	display: flex;
+	justify-content: space-between;
+	padding: 40px;
+}
+
+.abouts__charger button {
+	display: flex;
+	align-items: center;
+	gap: 20px;
+	box-shadow: 10px 10px 20px 5px rgba(0, 0, 0, 0.5);
+	margin-top: 50px;
+	background: #FFF;
+	border: none;
+	font-size: 20px;
+	padding: 10px 30px;
+	border-radius: 20px;
+}
+
+.abouts__charger button:hover {
+	transition: 0.5s;
+	background: #dedede;
+}
+
+.super__charger {
+	display: flex;
+	justify-content: space-between;
+	padding: 0 30px;
+}
+
+.abouts__charger_flex {
+	display: grid;
+	grid-template-columns: repeat(2, 1fr);
+	padding: 20px;
+	gap: 20px;
+}
+
+.bg_color__abouts {
+	display: flex;
+	max-width: 380px;
+	border-radius: 20px;
+	box-shadow: 10px 10px 20px 5px rgba(0, 0, 0, 0.5);
+	align-items: center;
+	gap: 10px;
+	background: #FFF;
+}

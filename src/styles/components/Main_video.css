@@ -1,0 +1,12 @@
+.main__video {
+	display: flex;
+	justify-content: center;
+	background-color: #403D39;
+	margin-top: 300px;
+	padding: 40px;
+}
+
+.main__video video {
+	filter: grayscale(100%) brightness(200%);
+	border-radius: 10px;
+}
