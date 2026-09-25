@@ -16,11 +16,12 @@
 
 .projects__title p {
 	font-size: 20px;
+	color: #262525;
 }
 
 .our__parnters {
 	display: grid;
-	gap: 20px;
+	gap: 10px;
 	grid-template-columns: repeat(3, 1fr);
 }
 
@@ -31,14 +32,13 @@
 }
 
 .our__parnters img {
-	max-width: 300px;
+	align-items: center;
 }
 
 .img__bg {
 	display: flex;
 	align-items: center;
 	justify-content: center;
-	width: 410px;
 	height: 284px;
 	position: relative;
 	justify-content: center;

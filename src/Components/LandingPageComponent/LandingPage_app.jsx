@@ -30,7 +30,7 @@ function LandingPage_app() {
             - Вывод заработанных средств на карту любого банка Таджикистана
           </p>
         </div>
-        <div>
+        <div className='scooter__phone'>
           <img src={Frame38} />
           <img src={Frame37} />
         </div>

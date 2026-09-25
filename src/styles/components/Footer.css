@@ -12,9 +12,9 @@
 	font-size: 18px;
 	gap: 80px;
 }
-
 .social__media {
 	display: flex;
+	align-items: center;
 	gap: 15px;
 }
 
