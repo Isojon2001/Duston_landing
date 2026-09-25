@@ -9,11 +9,19 @@ function Footer(props) {
           <p>История</p>
           <p>Миссия</p>
         </div>
-        <div>
+        <div className="footer_contacts">
           <h1>Контакты</h1>
-          <p>+992******</p>
-          <p>+992******</p>
-          <p>+992******</p>
+          <a href="tel:+992913323232">
+            <p>
+              +992913323232
+            </p>
+          </a>
+          <a href="mailto:info@duston.tj">
+            <p>
+              info@duston.tj
+            </p>
+          </a>
+          <p>Таджикистан г. Душанбе Ул С Шерози 24</p>
         </div>
         <div>
           <h1>Соцсети</h1>

@@ -1,3 +1,4 @@
+import { Link } from 'react-router-dom';
 import Main_info from '../Components/Main_info'
 import Our_projects from '../Components/Our_projects'
 import Partners from '../Components/Partners'
@@ -11,7 +12,9 @@ function Main(props) {
       <div className='main__info'>
         <div className='main__title'>
         <h1>экосистема которая работает на тебя</h1>
+        <Link to='/duston_about'>
         <button>Подробнее</button>
+        </Link>
         </div>
         <div className='main__images'>
           <img src={myImage} className='main__images-1' alt='images-tjk' />

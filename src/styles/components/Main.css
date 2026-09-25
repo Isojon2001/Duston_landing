@@ -20,11 +20,17 @@
 .main__info button {
 	margin-top: clamp(25px, 4vw, 50px);
 	background: none;
+	cursor: pointer;
 	color: #555454;
 	font-size: clamp(16px, 1.5vw, 20px);
 	padding: 10px clamp(20px, 2.5vw, 30px);
 	border-radius: 6px;
 }
+.main__info button:hover {
+		background: #555454;
+		transition: 0.3s;
+		color: #FFF;
+	}
 
 
 .main__images {

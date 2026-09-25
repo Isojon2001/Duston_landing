@@ -12,6 +12,15 @@
 	font-size: 18px;
 	gap: 80px;
 }
+
+.footer_contacts a {
+	color: #FFF;
+	text-decoration: none;
+}
+.footer_contacts a :hover{
+	color:dimgrey;
+}
+
 .social__media {
 	display: flex;
 	align-items: center;

@@ -4,7 +4,7 @@
 	gap: 20px;
 	margin-top: 30px;
 	padding: 0 30px;
-	background: #FFF;
+	background: #fff;
 }
 
 .partners_title {
@@ -12,7 +12,7 @@
 }
 
 .partners_info h1 {
-	font-size: 40;
+	font-size: 40px;
 }
 
 .partners_info p {
@@ -20,12 +20,41 @@
 	color: #262525;
 }
 
-.partners_logo {
-	display: flex;
-	align-items: center;
-	justify-content: space-between;
+.partners_slider {
+	width: 100%;
+	overflow: hidden;
+	margin: 60px 0;
 }
 
-.partners_logo {
-	margin: 50px 0;
+.partners_track {
+	display: flex;
+	width: max-content;
+	animation: partnersMove 90s linear infinite;
+}
+
+.partners_group {
+	display: flex;
+	align-items: center;
+	gap: 100px;
+	flex-shrink: 0;
+	padding-right: 100px;
+}
+
+.partners_group img {
+	width: 180px;
+	height: 100px;
+	object-fit: contain;
+	flex-shrink: 0;
+}
+
+@keyframes partnersMove {
+
+	from {
+		transform: translateX(0);
+	}
+
+	to {
+		transform: translateX(-50%);
+	}
+
 }
