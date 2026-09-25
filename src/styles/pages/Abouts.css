@@ -1,8 +1,8 @@
 .abouts__info {
 	display: flex;
 	align-items: center;
-	margin-left: 30px;
-	gap: 100px;
+	padding: 0 40px;
+	justify-content: space-between;
 }
 
 .abouts__title {
@@ -54,7 +54,7 @@
 
 .abouts__scooter {
 	display: flex;
-	  box-shadow: 0 15px 25px rgba(0, 0, 0, 0.15) ;
+	box-shadow: 0 20px 36px 0 #00000029;
 	background: #FFF;
 	margin:50px 20px;
 	justify-content: space-between;
@@ -79,11 +79,11 @@
 }
 .coffes_img{
 	display: flex;
-	justify-content: center;
+	justify-content: space-between;
 }
 .abouts__items {
 	display: flex;
-	box-shadow: 10px 10px 20px 5px rgba(0, 0, 0, 0.5);
+	box-shadow: 0 20px 36px 0 #00000029;
 	border-radius: 20px;
 	padding: 20px;
 	align-items: center;
@@ -150,7 +150,7 @@
 	display: flex;
 	align-items: center;
 	gap: 20px;
-	box-shadow: 10px 10px 20px 5px rgba(0, 0, 0, 0.5);
+	box-shadow: 0 20px 36px 0 #00000029;
 	margin-top: 50px;
 	background: #FFF;
 	border: none;
@@ -181,7 +181,7 @@
 	display: flex;
 	max-width: 380px;
 	border-radius: 20px;
-	box-shadow: 10px 10px 20px 5px rgba(0, 0, 0, 0.5);
+	box-shadow: 0 20px 36px 0 #00000029;
 	align-items: center;
 	gap: 10px;
 	background: #FFF;

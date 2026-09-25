@@ -41,3 +41,24 @@
 	color: grey;
 	transition: 0.5s;
 }
+
+.head__Landing ul a {
+	position: relative;
+	text-decoration: none;
+	color: inherit;
+}
+
+.head__Landing ul a::after {
+	content: "";
+	position: absolute;
+	left: 0;
+	bottom: -6px;
+	width: 0;
+	height: 2px;
+	background: #000;
+	transition: 0.3s;
+}
+
+.head__Landing ul a.active::after {
+	width: 100%;
+}

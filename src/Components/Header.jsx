@@ -1,7 +1,8 @@
-import { Link } from "react-router-dom";
-import Logo from '../assets/icons/logo.png'
-import Group from '../assets/icons/Group.png'
-function Header(props) {
+import { Link, NavLink } from "react-router-dom";
+import Logo from '../assets/icons/logo.png';
+import Group from '../assets/icons/Group.png';
+
+function Header() {
   return (
     <div className='landing__wrapper'>
       <div className='head__Landing'>
@@ -9,18 +10,23 @@ function Header(props) {
           <img src={Logo} />
         </Link>
         <ul>
-          <Link to="/">О нас</Link>
+          <NavLink
+            to="/duston_about"
+            className={({ isActive }) => isActive ? "active" : ""}
+          >
+            О нас
+          </NavLink>
           <Link to="/">Наши проекты</Link>
           <Link to="/">Контакты</Link>
         </ul>
-
       </div>
       <div className='landing__language'>
         <img src={Group} />
-        <Link>RU</Link>
-        <Link>EN</Link>
+        <Link to="/">RU</Link>
+        <Link to="/">EN</Link>
       </div>
     </div>
-  )
+  );
 }
-export default Header
+
+export default Header;

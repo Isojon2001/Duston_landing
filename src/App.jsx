@@ -5,6 +5,7 @@ import Main from "./Pages/Main";
 import LandingPage from "./Pages/LandingPage";
 import About from "./Pages/About";
 import Abouts from "./Pages/Abouts";
+import Duston_About from "./Pages/Duston_About";
 
 function App() {
   const { pathname } = useLocation();
@@ -21,6 +22,7 @@ function App() {
         <Route path="/koinot_rason" element={<LandingPage />} />
         <Route path="/koinot_qwatt" element={<About />} />
         <Route path="/luckin_cofee" element={<Abouts />} />
+        <Route path="/duston_about" element={<Duston_About />} />
       </Routes>
     </>
   );

@@ -1,0 +1,30 @@
+.about__video {
+    display: flex;
+    align-items: center;
+    height: 738px;
+    background: url("../../assets/image/tjk.png") no-repeat center / cover;
+    justify-content: center;
+}
+
+.about__video video {
+    border-radius: 10px;
+
+}
+
+.about__images {
+    display: flex;
+    padding: 100px 40px;
+    justify-content: space-between;
+}
+
+.images__title {
+    max-width: 650px;
+}
+
+.images__title h1 {
+    font-size: 35px;
+}
+
+.images__title p {
+    font-size: 25px;
+}

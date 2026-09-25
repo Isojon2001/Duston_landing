@@ -1,6 +1,9 @@
 import Group_15 from '../../assets/image/Group_15.png';
 import Frame37 from '../../assets/image/Frame37.png';
-import Frame_54 from '../../assets/image/Frame_54.png';
+import Luckin_Phone from '../../assets/image/Luckin_Phone.png';
+import Luckin_Phone1 from '../../assets/image/Luckin_Phone1.png';
+import Luckin_Phone2 from '../../assets/image/Luckin_Phone2.png';
+import Luckin_Phone3 from '../../assets/image/Luckin_Phone3.png';
 function Abouts_app() {
     return (
         <>
@@ -18,8 +21,11 @@ function Abouts_app() {
                   <p>Ваш любимый напиток всего в нескольких кликов от вас</p>
                 </div>
               </div>
-              <div className='abouts__scooter abouts__app coffes_img'>
-                  <img src={Frame_54} />
+              <div className='coffes_img'>
+                  <img src={Luckin_Phone} />
+                  <img src={Luckin_Phone1} />
+                  <img src={Luckin_Phone2} />
+                  <img src={Luckin_Phone3} />
               </div>
         </>
     )

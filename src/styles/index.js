@@ -1,5 +1,6 @@
 import './pages/landingPages.css'
 import './pages/About.css'
+import './pages/Duston_About.css'
 import './pages/Abouts.css'
 import './components/Header.css'
 import './components/Main.css'
