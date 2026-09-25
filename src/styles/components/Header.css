@@ -7,11 +7,15 @@
 	z-index: 9999;
 }
 
+.head__Landing{
+	gap:40px;
+	padding: 0 !important;
+}
 .head__Landing,
 .landing__wrapper {
 	font-size: 20px;
 	display: flex;
-	padding: 0 10px;
+	padding: 0 20px 0 0;
 	align-items: center;
 	background: white;
 }

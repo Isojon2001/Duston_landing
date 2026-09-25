@@ -13,12 +13,14 @@
 .main__info h1 {
 	font-size: clamp(32px, 4vw, 56px);
 	font-weight: 500;
+	color: #555454;
 	text-transform: uppercase;
 }
 
 .main__info button {
 	margin-top: clamp(25px, 4vw, 50px);
 	background: none;
+	color: #555454;
 	font-size: clamp(16px, 1.5vw, 20px);
 	padding: 10px clamp(20px, 2.5vw, 30px);
 	border-radius: 6px;

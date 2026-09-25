@@ -2,6 +2,7 @@
     display: flex;
     align-items: center;
     height: 738px;
+    margin-top: -28px;
     background: url("../../assets/image/tjk.png") no-repeat center / cover;
     justify-content: center;
 }
@@ -27,4 +28,13 @@
 
 .images__title p {
     font-size: 25px;
+}
+.about__page {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.about__page > .about__video__wrapper {
+    flex: 1;
 }
