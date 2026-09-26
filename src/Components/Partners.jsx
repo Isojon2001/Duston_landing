@@ -24,66 +24,66 @@ function Our_projects() {
         <div className='partners_slider'>
           <div className='partners_track'>
             <div className='partners_group'>
-              <Link to='https://evar.tj/' target='_blank'>
-                <img src={Evarlogo} alt='Evar' />
-              </Link>
               <img src={Teh} alt='Teh' />
               <Link to='https://koinotinav.tj/' target='_blank'>
                 <img src={koinot_logo} alt='Koinot' />
               </Link>
               <img src={ASR} alt='ASR' />
+              <Link to='https://evar.tj/' target='_blank'>
+                <img src={Evarlogo} alt='Evar' />
+              </Link>
               <Link to='https://www.instagram.com/dastrasmarket.tj/' target='_blank'>
                 <img src={dastras} width='300' alt='dastras' />
               </Link>
             </div>
             <div className='partners_group'>
-              <Link to='https://evar.tj/' target='_blank'>
-                <img src={Evarlogo} alt='Evar' />
-              </Link>
               <img src={Teh} alt='Teh' />
               <Link to='https://koinotinav.tj/' target='_blank'>
                 <img src={koinot_logo} alt='Koinot' />
               </Link>
               <img src={ASR} alt='ASR' />
+              <Link to='https://evar.tj/' target='_blank'>
+                <img src={Evarlogo} alt='Evar' />
+              </Link>
               <Link to='https://www.instagram.com/dastrasmarket.tj/' target='_blank'>
                 <img src={dastras} width='300' alt='dastras' />
               </Link>
             </div>
-                        <div className='partners_group'>
-              <Link to='https://evar.tj/' target='_blank'>
-                <img src={Evarlogo} alt='Evar' />
-              </Link>
+            <div className='partners_group'>
               <img src={Teh} alt='Teh' />
               <Link to='https://koinotinav.tj/' target='_blank'>
                 <img src={koinot_logo} alt='Koinot' />
               </Link>
               <img src={ASR} alt='ASR' />
+              <Link to='https://evar.tj/' target='_blank'>
+                <img src={Evarlogo} alt='Evar' />
+              </Link>
               <Link to='https://www.instagram.com/dastrasmarket.tj/' target='_blank'>
                 <img src={dastras} width='300' alt='dastras' />
               </Link>
             </div>
-                        <div className='partners_group'>
-              <Link to='https://evar.tj/' target='_blank'>
-                <img src={Evarlogo} alt='Evar' />
-              </Link>
+            <div className='partners_group'>
               <img src={Teh} alt='Teh' />
               <Link to='https://koinotinav.tj/' target='_blank'>
                 <img src={koinot_logo} alt='Koinot' />
               </Link>
               <img src={ASR} alt='ASR' />
+              <Link to='https://evar.tj/' target='_blank'>
+                <img src={Evarlogo} alt='Evar' />
+              </Link>
               <Link to='https://www.instagram.com/dastrasmarket.tj/' target='_blank'>
                 <img src={dastras} width='300' alt='dastras' />
               </Link>
             </div>
-                        <div className='partners_group'>
-              <Link to='https://evar.tj/' target='_blank'>
-                <img src={Evarlogo} alt='Evar' />
-              </Link>
+            <div className='partners_group'>
               <img src={Teh} alt='Teh' />
               <Link to='https://koinotinav.tj/' target='_blank'>
                 <img src={koinot_logo} alt='Koinot' />
               </Link>
               <img src={ASR} alt='ASR' />
+              <Link to='https://evar.tj/' target='_blank'>
+                <img src={Evarlogo} alt='Evar' />
+              </Link>
               <Link to='https://www.instagram.com/dastrasmarket.tj/' target='_blank'>
                 <img src={dastras} width='300' alt='dastras' />
               </Link>
