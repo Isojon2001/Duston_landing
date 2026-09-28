@@ -9,7 +9,7 @@ body {
 	display: flex;
 	align-items: center;
 	margin:0 auto;
-	padding:0 20px;
+	padding:0 80px !important;
 	justify-content: space-between;
 }
 
@@ -41,7 +41,7 @@ body {
 }
 
 .LandingPage__dsp {
-	padding: 30px;
+	padding:30px 90px !important;
 	color: #FFF;
 	background: #303030;
 }
@@ -68,7 +68,7 @@ body {
 .LandingPage__scooter {
 	display: flex;
 	justify-content: space-between;
-	padding: 40px;
+	padding:40px 80px !important;
 }
 
 .scooter__title {

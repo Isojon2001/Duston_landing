@@ -1,8 +1,7 @@
 .main__info {
 	display: flex;
-	align-items: center;
 	justify-content: space-between;
-	padding: 0 40px;
+	padding: 0 110px 0 82px;
 	margin: 0 auto;
 }
 

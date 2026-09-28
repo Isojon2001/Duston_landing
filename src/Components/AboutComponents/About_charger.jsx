@@ -46,7 +46,7 @@ function About_charger() {
             </div>
             <img src={Powerbank} />
         </div>
-        <div className='about__charger'>
+        <div className='about__charger about__chargers'>
           <img src={Charger} />
           <div className='scooter__title'>
             <h1>Современные технологические станции по всему городу</h1>

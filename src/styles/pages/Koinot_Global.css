@@ -6,7 +6,7 @@ body {
 }
 
 .globals_wrapper {
-	padding: 35px;
+	padding: 40px 80px;
 }
 .globals_wrapper p:nth-of-type(1){
 	color: #1A1A1A;

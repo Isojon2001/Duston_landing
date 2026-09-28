@@ -1,7 +1,7 @@
 .about__info {
 	display: flex;
 	align-items: center;
-	padding: 0 30px;
+	padding: 0 90px;
 	justify-content: space-between;
 }
 
@@ -48,7 +48,7 @@
 }
 
 .about__dsp {
-	padding: 30px;
+	padding: 30px 90px;
 	color: #FFF;
 	background: #303030;
 }
@@ -76,7 +76,7 @@
 	display: flex;
 	flex-direction: column;
 	justify-content: space-between;
-	padding: 40px;
+	padding: 40px 90px;
 }
 .qwatt__subtitle_phone {
 	display: flex;
@@ -95,7 +95,13 @@
 .about__charger {
 	display: flex;
 	justify-content: space-between;
-	padding: 40px;
+	padding:40px;
+}
+.about__evar{
+	padding: 90px !important;
+}
+.about__chargers {
+	padding:30px 380px 30px 40px;
 }
 
 .about__charger button {
@@ -120,7 +126,7 @@
 .super__charger {
 	display: flex;
 	justify-content: space-between;
-	padding: 0 30px;
+	padding: 20px 90px !important;
 }
 
 .about__charger_flex {

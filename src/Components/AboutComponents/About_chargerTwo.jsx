@@ -7,7 +7,7 @@ import Tech from '../../assets/image/Tech.png';
 function About_chargerTwo() {
     return (
         <>
-        <div className='about__charger'>
+        <div className='about__charger about__evar'>
           <div className='scooter__title'>
             <h1>Станция Koinot Qwatt в вашем заведении</h1>
           <p>
@@ -26,7 +26,7 @@ function About_chargerTwo() {
           </div>
           <img src={Evar} />
         </div>
-        <div className='about__charger'>
+        <div className='about__charger about__evar'>
           <img src={Group14} />
           <div className='scooter__title'>
             <h1>Koinot Qwatt в приложении</h1>
