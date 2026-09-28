@@ -1,4 +1,4 @@
-import Taobao from '../../assets/image/Taobao.png';
+import Taobao from '../../assets/image/taobao.png';
 import pinduoduo from '../../assets/image/pinduoduo.png';
 import poizon from '../../assets/image/poizon.png';
 

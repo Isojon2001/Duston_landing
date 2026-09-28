@@ -1,5 +1,5 @@
 import myImage from '../../assets/image/a_clean_studio_style_product_logo_render_on_a_tran 1.png';
-import Scooter from '../../assets/image/scooter.png';
+import Scooter from '../../assets/image/Scooter.png';
 function LandingPage_info() {
   return (
     <>

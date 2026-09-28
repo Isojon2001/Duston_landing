@@ -1,5 +1,5 @@
 import Car from '../../assets/image/Car.png';
-import Van from '../../assets/image/Van.png';
+import Van from '../../assets/image/van.png';
 import Truck from '../../assets/image/Truck.png';
 
 function LandingPage_scooter() {

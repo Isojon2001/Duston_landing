@@ -1,4 +1,4 @@
-import './pages/landingPages.css'
+import './pages/LandingPages.css'
 import './pages/About.css'
 import './pages/Duston_About.css'
 import './pages/Koinot_Global.css'
