@@ -19,8 +19,8 @@ function Main(props) {
         <div className='main__images'>
           <img src={myImage} className='main__images-1' alt='images-tjk' />
           <img src={myImage_1} className='main__images-2' alt='images-tjk' />
-          <img src={myImage_2} className='main__images-3' alt='images-tjk' />
-          <img src={myImage_3} className='main__images-4' alt='images-tjk' />
+          <img src={myImage_3} className='main__images-3' alt='images-tjk' />
+          <img src={myImage_2} className='main__images-4' alt='images-tjk' />
         </div>
       </div>
         <Main_info />

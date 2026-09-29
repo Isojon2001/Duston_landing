@@ -7,10 +7,11 @@
 	z-index: 9999;
 }
 
-.head__Landing{
-	gap:40px;
+.head__Landing {
+	gap: 100px;
 	padding: 0 !important;
 }
+
 .head__Landing,
 .landing__wrapper {
 	font-size: 20px;
@@ -31,7 +32,7 @@
 	padding: 0;
 	list-style: none;
 	text-decoration: none;
-	gap: 20px;
+	gap: 80px;
 }
 
 .landing__language a,
@@ -65,4 +66,20 @@
 
 .head__Landing ul a.active::after {
 	width: 100%;
+}
+
+@media (max-width: 768px) {
+	.landing__wrapper{
+		padding: 0;
+	}
+	.landing__wrapper img {
+		width: 100px;
+	}
+	.head__Landing{
+		gap: 1px;
+	}
+	.head__Landing ul {
+		display: none;
+		font-size: 15px;
+	}
 }

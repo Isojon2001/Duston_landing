@@ -2,6 +2,7 @@
 	display: flex;
 	align-items: center;
 	padding: 0 90px;
+	padding-bottom: 60px;
 	justify-content: space-between;
 }
 
@@ -13,7 +14,8 @@
 .about__title h1 {
 	color: #555454;
 }
-.about__title p:nth-of-type(2){
+
+.about__title p:nth-of-type(2) {
 	font-weight: 700;
 }
 
@@ -63,9 +65,14 @@
 	font-weight: 500;
 }
 
-.about__qwatt p,
 .about__dsp p {
 	font-size: 25px;
+}
+
+.about__qwatt p {
+	font-size: 25px;
+	max-width: 670px;
+	color: #262525;
 }
 
 .scooter__title p>span {
@@ -76,17 +83,20 @@
 	display: flex;
 	flex-direction: column;
 	justify-content: space-between;
-	padding: 40px 90px;
+	padding: 70px 90px;
 }
+
 .qwatt__subtitle_phone {
 	display: flex;
 	align-items: center;
 	justify-content: space-between;
 }
-.qwatt__subtitle{
+
+.qwatt__subtitle {
 	display: flex;
 	flex-direction: column;
 }
+
 .qwatt__title {
 	display: flex;
 	justify-content: space-between;
@@ -95,13 +105,15 @@
 .about__charger {
 	display: flex;
 	justify-content: space-between;
-	padding:40px;
+	padding: 40px;
 }
-.about__evar{
+
+.about__evar {
 	padding: 90px !important;
 }
+
 .about__chargers {
-	padding:30px 380px 30px 40px;
+	padding: 30px 380px 30px 40px;
 }
 
 .about__charger button {
@@ -115,12 +127,24 @@
 	border: none;
 	font-size: 20px;
 	padding: 10px 30px;
-	border-radius: 20px;
+	border-radius: 20px !important;
 }
+
+.btn__chargers button {
+	background-color: #FFF !important;
+	color: #000 !important;
+}
+
+.btn__chargers button:hover {
+	transition: 0.5s;
+	color: #FFF !important;
+	background: #555454 !important;
+}
+
 
 .about__charger button:hover {
 	transition: 0.5s;
-	background: #dedede;
+	background: #dedede !;
 }
 
 .super__charger {
@@ -150,4 +174,7 @@
 
 .bg_color__about p {
 	font-size: 25px;
+}
+.map__qwat{
+	box-shadow: 1px -8px 10px rgba(0, 0, 0, 0.35);
 }

@@ -15,10 +15,6 @@ body {
 	max-width: 600px;
 }
 
-.map__global {
-	box-shadow: 1px -8px 10px rgba(0, 0, 0, 0.35);
-}
-
 .global_flex {
 	display: flex;
 	flex-direction: column;
@@ -53,30 +49,42 @@ body {
 	color: #6B7280;
 }
 
-.LandingPage__info {
+.savora__info {
 	display: flex;
 	align-items: start;
 	margin: 0 auto;
-	padding: 0 20px;
+	padding: 20px;
+	margin-bottom: 50px;
 	justify-content: space-between;
 }
 
-.LandingPage__title {
-	margin: 40px 4px;
+.savora__title {
+	max-width: 610px;
+	padding: 0 60px;
 }
 
-.LandingPage__info h1 {
+.savora__title h1 {
+	font-size: 60px !important;
+	max-width: 200px;
+}
+
+.savora__title p {
+	color: #262525;
+	font-size: 24px !important;
+}
+
+.savora__info h1 {
 	font-size: 56px;
 	color: #555454;
 	font-weight: 500;
 	text-transform: uppercase;
 }
 
-.LandingPage__info p {
+.savora__info p {
 	font-size: 20px;
 }
 
-.LandingPage__info button {
+.savora__info button {
 	display: flex;
 	align-items: center;
 	margin-top: 50px;
@@ -88,28 +96,33 @@ body {
 	border-radius: 6px;
 }
 
-.LandingPage__dsp {
-	padding: 30px;
+.savora__dsp {
+	display: flex;
+	padding: 20px 90px;
+	max-width: 100%;
 	color: #FFF;
+	gap: 60px;
+	justify-content: space-between;
 	background: #303030;
+}
+
+
+.savora__subtitle {
+	display: flex;
+	gap: 25px;
 }
 
 .dsp__title {
 	max-width: 800px;
 }
 
-.scooter__title h1,
-.LandingPage__dsp h1 {
-	font-size: 35px;
-	font-weight: 500;
-}
 
 .scooter__title p,
-.LandingPage__dsp p {
+.savora__dsp p {
 	font-size: 25px;
 }
 
-.LandingPage__dsp p {
+.savora__dsp p {
 	color: #D4D4D4;
 }
 
@@ -117,15 +130,22 @@ body {
 	font-weight: 700;
 }
 
-.LandingPage__scooter {
+.savora__scooter {
 	display: flex;
 	justify-content: space-between;
-	padding: 40px;
+	padding: 40px 80px;
 }
 
-.scooter__title {
-	max-width: 700px;
+.savora__scooter h1 {
+	font-size: 24px !important;
+	font-weight: 700 !important;
 }
+
+.savora__scooter p {
+	color: #262525;
+	line-height:140%;
+}
+
 
 .scooter__phone {
 	display: flex;
@@ -205,4 +225,99 @@ body {
 
 .global_phones h1 {
 	margin: 0px;
+}
+
+.savora__readme {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	gap: 40px;
+	padding: 40px 90px;
+}
+
+.savora__btn {
+	display: flex;
+	align-items: center;
+	gap: 40px;
+}
+
+.savora__btn button:nth-of-type(1) {
+	padding: 10px 25px;
+}
+
+.savora__btn button:nth-of-type(2) {
+	background: none;
+	padding: 6px 10px;
+	gap: 15px;
+	border: 1px solid #031037;
+	color: #000;
+}
+.savora__images img{
+	padding-right: 150px;
+}
+.savora__img {
+	display: flex;
+	flex-direction: column;
+	padding: 90px;
+}
+
+.savora__img h1 {
+	margin-top: 50px;
+	font-size: 24px;
+}
+
+.savora__img p {
+	margin: 0;
+	max-width: 700px;
+	color: #262525;
+	font-size: 20px;
+}
+
+.readme_bg {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	text-align: center;
+	box-shadow: 0 20px 36px 0 #00000029;
+	padding: 20px;
+	width: 230px;
+	height: 240px;
+	border-radius: 20px;
+	gap: 20px;
+	justify-content: center;
+	background-color: #FFF;
+}
+
+.readme_bg p {
+	font-size: 24px;
+	font-weight: 600;
+}
+
+.savora__app {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	padding: 60px;
+}
+.savora__apps{
+	padding-right: 200px;
+}
+.savora_location {
+	display: flex;
+	flex-direction: column;
+	padding: 25px 80px;
+	max-width: 958px;
+}
+
+.savora_location h1 {
+	font-size: 24px;
+}
+
+.savora_location p {
+	font-size: 20px;
+}
+
+.savora_map {
+	box-shadow: 1px -8px 10px rgba(0, 0, 0, 0.35);
+
 }

@@ -1,5 +1,5 @@
 import { useState } from 'react';
-import mapDc from '../../assets/image/mapDc.png';
+import map_global from '../../assets/image/map_global.png';
 import Bigcloset from '../../assets/image/Bigcloset.png';
 import pinduoduoPhone from '../../assets/image/pinduoduoPhone.png';
 import pays_duston from '../../assets/image/pays_duston.png';
@@ -116,9 +116,10 @@ function Abouts_app() {
         />
       </div>
       <img
-        src={mapDc}
+      className='map__global'
+        src={map_global}
         width='100%'
-        alt='mapDC'
+        alt='map_global'
       />
       <div className='LandingPage__dsp'>
         <div className='dsp__title'>

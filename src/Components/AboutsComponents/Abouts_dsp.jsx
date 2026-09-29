@@ -1,4 +1,4 @@
-import mapDc from '../../assets/image/mapDc.png';
+import map_coffe from '../../assets/image/map_coffe.png';
 import abouts_cofee from '../../assets/image/abouts_cofee.png';
 import abouts_cofee1 from '../../assets/image/abouts_cofee1.png';
 import abouts_coffe2 from '../../assets/image/abouts_coffe2.png';
@@ -34,7 +34,7 @@ function Abouts_app() {
           </button>
         </div>
       </div>
-      <img src={mapDc} width='100%' />
+      <img className='map__coffe' src={map_coffe} width='100%' />
         </>
     )
 }

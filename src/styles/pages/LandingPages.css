@@ -8,9 +8,14 @@ body {
 .LandingPage__info {
 	display: flex;
 	align-items: center;
-	margin:0 auto;
-	padding:0 80px !important;
+	margin: 0 auto;
+	padding: 0 80px !important;
+	padding-bottom: 80px !important;
 	justify-content: space-between;
+}
+
+.LandingPage__images {
+	padding-top: 60px;
 }
 
 .LandingPage__title {
@@ -26,6 +31,7 @@ body {
 
 .LandingPage__info p {
 	font-size: 20px;
+	color: #262525;
 }
 
 .LandingPage__info button {
@@ -41,7 +47,7 @@ body {
 }
 
 .LandingPage__dsp {
-	padding:30px 90px !important;
+	padding: 30px 90px !important;
 	color: #FFF;
 	background: #303030;
 }
@@ -68,15 +74,20 @@ body {
 .LandingPage__scooter {
 	display: flex;
 	justify-content: space-between;
-	padding:40px 80px !important;
+	padding: 60px 80px !important;
 }
 
 .scooter__title {
 	max-width: 700px;
 }
-.scooter__phone{
+
+.scooter__phone {
 	display: flex;
 	flex-direction: column;
+}
+
+.map__dc{
+	box-shadow: 1px -8px 10px rgba(0, 0, 0, 0.35);
 }
 .scooter_carusel img {
 	width: 300px;
@@ -142,4 +153,171 @@ body {
 
 .scooter_carusel__dot_active {
 	background: #29205f !important;
+}
+
+@media (max-width: 768px) {
+	body {
+		font-family: 'Inter', sans-serif;
+		padding-top: 100px;
+		margin: 10px 0 auto;
+		background: #FAFAFF;
+	}
+
+	.LandingPage__info {
+		display: flex;
+		flex-direction: column-reverse;
+		align-items: center !important;
+		padding: 0 20px !important;
+		padding-bottom: 80px !important;
+		justify-content: center !important;
+	}
+
+	.LandingPage__images {
+		padding: 0;
+	}
+
+	.LandingPage__images img {
+		max-width: 200px !important;
+	}
+
+	.LandingPage__title {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		justify-content: center;
+		text-align: center;
+		margin: 0 !important;
+	}
+
+	.LandingPage__info h1 {
+		font-size: 34px !important;
+		font-weight: 500;
+		text-align: center;
+		text-transform: uppercase;
+	}
+
+	.LandingPage__info p {
+		font-size: 15px !important;
+		color: #262525;
+	}
+
+	.LandingPage__info button {
+		display: flex;
+		align-items: center;
+		margin-top: 50px;
+		background: #031138;
+		border: none;
+		color: #FFF;
+		font-size: 20px;
+		padding: 10px 30px;
+		border-radius: 6px;
+	}
+
+	.LandingPage__dsp {
+		padding: 30px 20px !important;
+		color: #FFF;
+		text-align: center;
+		background: #303030;
+	}
+
+	.dsp__title {
+		max-width: 800px;
+	}
+
+	.scooter__title {
+		text-align: center !important;
+
+	}
+
+	.scooter__title p,
+	.LandingPage__dsp p {
+		font-size: 25px;
+	}
+
+	.scooter__title p>span {
+		font-weight: 700;
+	}
+
+	.LandingPage__scooter {
+		display: flex;
+		flex-direction: column;
+		justify-content: space-between;
+		padding: 20px !important;
+	}
+
+	.LandingPage__scooter img {
+		width: 100px;
+		height: 100px;
+	}
+
+	.scooter__phone {
+		display: flex;
+		flex-direction: column;
+	}
+
+	.scooter_carusel img {
+		width: 300px;
+	}
+
+	.scooter_carusel {
+		width: 470px;
+		margin-top: 20px;
+	}
+
+	.scooter_carusel__image {
+		width: 470px;
+		height: 430px;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		overflow: hidden;
+	}
+
+	.scooter_carusel__image img {
+		display: block;
+		width: 100%;
+		height: 100%;
+		object-fit: contain;
+	}
+
+	.scooter_carusel__controls {
+		width: 100%;
+		display: flex;
+		align-items: center;
+		justify-content: space-between;
+		padding: 0 70px;
+		box-sizing: border-box;
+		margin-top: 5px;
+	}
+
+	.scooter_carusel__arrow {
+		width: 35px;
+		height: 45px;
+		padding: 0;
+		border: none;
+		background: transparent !important;
+		cursor: pointer;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+	}
+
+	.scooter_carusel__dots {
+		display: flex;
+		align-items: center;
+	}
+
+	.scooter_carusel__dot {
+		width: 13px;
+		height: 13px;
+		padding: 0 !important;
+		border: none;
+		border-radius: 50% !important;
+		background: #d7d7d7 !important;
+		cursor: pointer;
+	}
+
+	.scooter_carusel__dot_active {
+		background: #29205f !important;
+	}
 }

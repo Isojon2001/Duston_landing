@@ -17,6 +17,8 @@ function Header() {
             О нас
           </NavLink>
           <Link to="/">Наши проекты</Link>
+          <Link to="/">Услуги</Link>
+          <Link to="/">Проиложения</Link>
           <Link to="/">Контакты</Link>
         </ul>
       </div>

@@ -1,12 +1,11 @@
-import Frame38 from '../../assets/image/Frame38.png';
 import Frame37 from '../../assets/image/Frame37.png';
-import Phone from '../../assets/image/Phone.png';
+import phone_global from '../../assets/image/phone_global.png';
 
 function LandingPage_app() {
   return (
     <>
       <div className='LandingPage__scooter LandingPage__app'>
-        <img src={Phone} />
+        <img src={phone_global} />
         <div className='scooter__title'>
           <h1>Для клиентов - доставка в Super App Koinot</h1>
           <p>

@@ -128,9 +128,10 @@ function Abouts_app() {
         />
       </div>
       <img
+      className='map__dc'
         src={mapDc}
         width='100%'
-        alt=''
+        alt='mapDc'
       />
     </>
   );

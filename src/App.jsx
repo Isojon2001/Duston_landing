@@ -7,6 +7,7 @@ import About from "./Pages/About";
 import Abouts from "./Pages/Abouts";
 import Duston_About from "./Pages/Duston_About";
 import Koinot_Global from "./Pages/Koinot_Global";
+import Koinot_Savora from "./Pages/Koinot_Savora";
 
 function App() {
   const { pathname } = useLocation();
@@ -20,6 +21,7 @@ function App() {
       <Header />
       <Routes>
         <Route path="/" element={<Main />} />
+        <Route path="/koinot_savora" element={<Koinot_Savora />} />
         <Route path="/koinot_global" element={<Koinot_Global />} />
         <Route path="/koinot_rason" element={<LandingPage />} />
         <Route path="/koinot_qwatt" element={<About />} />
