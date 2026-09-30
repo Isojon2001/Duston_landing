@@ -144,7 +144,7 @@
 
 .about__charger button:hover {
 	transition: 0.5s;
-	background: #dedede !;
+	background: #dedede !important;
 }
 
 .super__charger {
